@@ -1,0 +1,41 @@
+# 🎀 Facebook
+
+#### 👨‍💻 Code
+
+```js copy
+import {
+  FacebookShareButton,
+  FacebookIcon,
+} from 'next-share';
+
+<FacebookShareButton
+  url={'https://github.com/next-share'}
+  quote={'next-share is a social share buttons for your next React apps.'}
+  hashtag={'#nextshare'}
+>
+  <FacebookIcon size={32} round />
+</FacebookShareButton>
+```
+
+#### 📖 FacebookShareButton Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| quote | string |  | A quote to be shared. | ❌ |
+| hashtag | string |  | Hashtag to be shared. | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
+
+#### 📚 FacebookIcon Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| size | number |  | Icon size in pixels. | ❌ |
+| round | boolean |  | Show round or rectangle. | ❌ |
+| borderRadius | number |  | Set rounded corners if using round icon. | ❌ |
+| bgStyle | object |  | Customize background style. | ❌ |
+| iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |

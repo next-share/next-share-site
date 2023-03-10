@@ -1,13 +1,9 @@
-# next-share
+# Next Share Site
 
-## Getting Started
+<!-- This is a template for creating documentation with [Nextra](https://nextra.site). -->
 
-First, run the development server:
+## Local Development
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+First, run `pnpm i` to install the dependencies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, run `pnpm dev` to start the development server and visit localhost:3000.
