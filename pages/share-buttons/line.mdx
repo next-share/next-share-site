@@ -1,20 +1,19 @@
-# 🎀 Facebook
+# 🎀 Line
 
 #### 👨‍💻 Code
 
 ```js copy
 import {
-  FacebookShareButton,
-  FacebookIcon,
+  LineShareButton,
+  LineIcon,
 } from 'next-share'
 
-<FacebookShareButton
+<LineShareButton
   url={'https://github.com/next-share'}
-  quote={'next-share is a social share buttons for your next React apps.'}
-  hashtag={'#nextshare'}
+  title={'next-share is a social share buttons for your next React apps.'}
 >
-  <FacebookIcon size={32} round />
-</FacebookShareButton>
+  <LineIcon />
+</LineShareButton>
 ```
 
 #### 👨‍💻 Generate
@@ -22,31 +21,29 @@ import {
 <br />
 
 import {
-  FacebookShareButton,
-  FacebookIcon,
+  LineShareButton,
+  LineIcon,
 } from 'next-share'
 
-<FacebookShareButton
+<LineShareButton
   url={'https://github.com/next-share'}
-  quote={'next-share is a social share buttons for your next React apps.'}
-  hashtag={'#nextshare'}
+  title={'next-share is a social share buttons for your next React apps.'}
 >
-  <FacebookIcon size={32} round />
-</FacebookShareButton>
+  <LineIcon />
+</LineShareButton>
 
-#### 📖 FacebookShareButton Props
+#### 📖 LineShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
 | children | node |  | React component, HTML element or string. | ✅ |
 | url | string |  | The URL of the shared page. | ✅ |
-| quote | string |  | A quote to be shared. | ❌ |
-| hashtag | string |  | Hashtag to be shared. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| title | string |  | The title of the shared page. | ❌ |
+| windowWidth | number | 500 | Opened window width. | ❌ |
+| windowHeight | number | 500 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📚 FacebookIcon Props
+#### 📚 LineIcon Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
