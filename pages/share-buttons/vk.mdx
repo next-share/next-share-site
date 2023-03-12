@@ -1,16 +1,19 @@
-# 🎀 Linkedin
+# 🎀 VK
 
 #### 👨‍💻 Code
 
 ```js copy
 import {
-  LinkedinShareButton,
-  LinkedinIcon,
+  VKShareButton,
+  VKIcon,
 } from 'next-share'
 
-<LinkedinShareButton url={'https://github.com/next-share'}>
-  <LinkedinIcon size={32} round />
-</LinkedinShareButton>
+<VKShareButton
+  url={'https://github.com/next-share'}
+  image={'./next-share.png'}
+>
+  <VKIcon size={32} round />
+</VKShareButton>
 ```
 
 #### 👨‍💻 Generate
@@ -18,15 +21,18 @@ import {
 <br />
 
 import {
-  LinkedinShareButton,
-  LinkedinIcon,
+  VKShareButton,
+  VKIcon,
 } from 'next-share'
 
-<LinkedinShareButton url={'https://github.com/next-share'}>
-  <LinkedinIcon size={32} round />
-</LinkedinShareButton>
+<VKShareButton
+  url={'https://github.com/next-share'}
+  image={'./next-share.png'}
+>
+  <VKIcon size={32} round />
+</VKShareButton>
 
-#### 📖 LinkedinShareButton Props
+#### 📖 VKShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -38,17 +44,7 @@ import {
 | windowHeight | number | 730 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-How do you use things like `title`, `summary`, etc.?
-
-Use `og` tags in the `<head>` block of the HTML.
-
-```html
-<meta property='og:image' content='' />
-<meta property='og:title' content='' />
-<meta property='og:description' content='' />
-```
-
-#### 📚 LinkedinIcon Props
+#### 📚 VKIcon Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
