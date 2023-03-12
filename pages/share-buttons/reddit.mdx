@@ -1,0 +1,56 @@
+# 🎀 Reddit
+
+#### 👨‍💻 Code
+
+```js copy
+import {
+  RedditShareButton,
+  RedditIcon,
+} from 'next-share'
+
+<RedditShareButton
+  url={'https://github.com/next-share'}
+  title={'next-share is a social share buttons for your next React apps.'}
+>
+  <RedditIcon size={32} round />
+</RedditShareButton>
+```
+
+#### 👨‍💻 Generate
+
+<br />
+
+import {
+  RedditShareButton,
+  RedditIcon,
+} from 'next-share'
+
+<RedditShareButton
+  url={'https://github.com/next-share'}
+  title={'next-share is a social share buttons for your next React apps.'}
+>
+  <RedditIcon size={32} round />
+</RedditShareButton>
+
+#### 📖 RedditShareButton Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| media | string |  | The image URL that will be pinned. | ✅ |
+| description | string |  | The description of the shared media. | ❌ |
+| windowWidth | number | 1000 | Opened window width. | ❌ |
+| windowHeight | number | 730 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
+
+#### 📚 RedditIcon Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| size | number |  | Icon size in pixels. | ❌ |
+| round | boolean |  | Show round or rectangle. | ❌ |
+| borderRadius | number |  | Set rounded corners if using round icon. | ❌ |
+| bgStyle | object |  | Customize background style. | ❌ |
+| iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
