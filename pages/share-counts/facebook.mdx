@@ -1,0 +1,30 @@
+# 🎀 Facebook
+
+#### 👨‍💻 Code
+
+```js copy
+import { FacebookShareCount } from 'next-share'
+
+<FacebookShareCount
+  url={'https://github.com/next-share'}
+  appId={''}
+  appSecret={''}
+/>
+
+<FacebookShareCount
+  url={'https://github.com/next-share'}
+  appId={''}
+  appSecret={''}
+>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</FacebookShareCount>
+```
+
+#### 📖 FacebookShareCount Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| appId | string |  | Facebook application id. | ✅ |
+| appSecret | string |  | Facebook application secret. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
