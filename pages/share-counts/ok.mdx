@@ -1,0 +1,20 @@
+# 🎀 OK
+
+#### 👨‍💻 Code
+
+```js copy
+import { OKShareCount } from 'next-share'
+
+<OKShareCount url={'https://github.com/next-share'} />
+
+<OKShareCount url={'https://github.com/next-share'}>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</OKShareCount>
+```
+
+#### 📖 OKShareCount Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
